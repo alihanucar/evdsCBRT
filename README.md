@@ -14,4 +14,16 @@ The code then calculates the 13-week SMA for the credit card size YoY change dat
 
 Finally, the code plots both the credit card size YoY change and its 13-week SMA using a line plot. This allows the user to visualize the trend in credit card loan size growth and assess whether there is a momentum trend or not. The YoY change rate plot provides insight into how credit card loan size has changed over time, while the 13-week SMA plot provides a clearer picture of the underlying trend in the YoY change rate data.
 
+## 2) MonthlyReturnHeatMap() function / EVDS - USD/TRY and BIST100 Monthly Return Visualization:
+
+This function is to create a heatmap of the monthly returns of the USD/TRY and Istanbul Stock Exchange between January 1, 2018 and January 30, 2023. The code accesses the exchange rate data through the evdsAPI, a Python library for accessing data from the CBRT – Central Bank of the Republic of  Türkiye (EVDS) database.
+
+The code first loads the data using the evds.get_data() method, and formats the date column using the pandas library. The code then extracts year and month information from the date index and divides the var1_1 column by 100 to convert the data into a percentage.
+
+The code then creates a pivot table from the data using the pandas pivot method, and creates the heatmap using the seaborn library. The heatmap uses the cmap parameter to specify the color map (RdYlGn) and the fmt parameter to specify the format of the annotations in the heatmap. The vmin and vmax parameters are used to set the minimum and maximum values for the color scale, respectively.
+
+This code can be useful for visualizing the monthly returns of the usd/try, xu100 or however you want from EVDS  how they change over time, providing insights into trends and patterns in the data. I make the code dynamic so you just need to change parameters if you want to see other financial instrument’s monthly returns. 
+
+
+
 ![Logo](https://evds2.tcmb.gov.tr/themes/icons_new/logo.png)
