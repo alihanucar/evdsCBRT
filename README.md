@@ -1,6 +1,8 @@
 # Central Bank of the Republic of Turkey's electronic data delivery system - EVDS
 
-![Logo](https://evds2.tcmb.gov.tr/themes/icons_new/logo.png) ![Logo](https://evds2.tcmb.gov.tr/themes/template01/images/Logo.png)
+ ![Logo](https://evds2.tcmb.gov.tr/themes/template01/images/Logo.png)
+ 
+ ![Logo](https://evds2.tcmb.gov.tr/themes/icons_new/logo.png)
 
 
 
