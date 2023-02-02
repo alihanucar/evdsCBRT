@@ -1,6 +1,8 @@
 # Central Bank of the Republic of Turkey's electronic data delivery system - EVDS
 
-![Logo](https://evds2.tcmb.gov.tr/themes/icons_new/logo.png)
+![Logo](https://evds2.tcmb.gov.tr/themes/icons_new/logo.png) ![Logo](https://evds2.tcmb.gov.tr/themes/template01/images/Logo.png)
+
+
 
 We can access the Central Bank of Turkey's Economic and Financial Data Delivery System (EVDS) using Python by obtaining an API key from the EVDS website. After registering on the website, users can access their unique key through the profile section. The EVDS also provides a user guide on their website, which can assist in downloading and utilizing the data. Here is the [Link](https://evds2.tcmb.gov.tr/help/videos/User_Guide_to_Access_EVDS_Data_by_Using_Python.pdf).
 
