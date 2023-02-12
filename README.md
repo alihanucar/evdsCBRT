@@ -31,5 +31,14 @@ The code then creates a pivot table from the data using the pandas pivot method,
 This code can be useful for visualizing the monthly returns of the usd/try, xu100 or however you want from EVDS  how they change over time, providing insights into trends and patterns in the data. I make the code dynamic so you just need to change parameters if you want to see other financial instrument’s monthly returns. 
 
 
+## 3) RegressionAnalysis() function / EVDS - TL Credit and Import Size YoY Change Relationship:
+
+This code is a script for performing regression analysis between two variables in order to determine the relationship between them. The RegressionAnalysis function is the main function of the script that performs the regression analysis between two variables. The function takes in several parameters, including the names of the two variables, their corresponding names, the start and end dates for the data, and the names of the columns in the data frame that correspond to the two variables.
+
+The function first loads the data using the evds.get_data() method and formats the date column. It then drops any NA or ND values and converts the data type of the second variable to float. The data is then saved as an Excel file for future reference.
+
+The function then calculates the correlation between the two variables and performs an ordinary least squares (OLS) regression using statsmodels. The regression results are printed in the form of a summary. The script also plots the two variables over time and a scatter plot with a regression line. The plots are generated using matplotlib and seaborn.
+
+Finally, the script sets the parameters for the two variables and calls the RegressionAnalysis function to perform the analysis.
 
 
