@@ -42,3 +42,14 @@ The function then calculates the correlation between the two variables and perfo
 Finally, the script sets the parameters for the two variables and calls the RegressionAnalysis function to perform the analysis.
 
 
+## 4) interestrates() function / EVDS - Credit and Deposit Interest Rates:
+
+The purpose of the interestrates() function is to plot a line graph of the interest rates over time for the given variables in the vars_dict dictionary.
+
+The function first loads the data using evds.get_data() function, which retrieves the historical data for the given variables in the dictionary, with the specified start and end dates. The date column is formatted using pd.to_datetime(), and the dots in the column names are replaced with underscores to avoid any errors in plotting.
+
+Next, a color palette is set for the line plots, and a line plot is created for each variable using sns.lineplot(), with the x-axis as the date column and the y-axis as the variable code in the dictionary. The last value of each line is annotated using plt.text(), which displays the value at the end of each line.
+
+Finally, the graph title, x-label, y-label, and legend are added using plt.title(), plt.xlabel(), plt.ylabel(), and plt.legend(), respectively, and the plot is displayed using plt.show(). Metadata [Link](https://www.tcmb.gov.tr/wps/wcm/connect/933493cb-5251-43f3-af70-920eee213041/RIPMetaveri-1_Haftal%C4%B1k_Mevduat_Ag%C4%B1rl%C4%B1kl%C4%B1_Ortalama_Faiz.pdf?MOD=AJPERES)
+
+
