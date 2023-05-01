@@ -52,4 +52,13 @@ Next, a color palette is set for the line plots, and a line plot is created for 
 
 Finally, the graph title, x-label, y-label, and legend are added using plt.title(), plt.xlabel(), plt.ylabel(), and plt.legend(), respectively, and the plot is displayed using plt.show(). Metadata [Link](https://www.tcmb.gov.tr/wps/wcm/connect/933493cb-5251-43f3-af70-920eee213041/RIPMetaveri-1_Haftal%C4%B1k_Mevduat_Ag%C4%B1rl%C4%B1kl%C4%B1_Ortalama_Faiz.pdf?MOD=AJPERES)
 
+## 5) ratio() function / EVDS - BIST 100 / TUFE Ratio:
+
+The purpose of ratio() function is to plot a line graph that shows the ratio of BIST100 to TÜFE Endeksi for a given time period using data obtained from the EVDS API. It calculates the ratio of the two indexes, adds it as a new column to the DataFrame, and then plots the graph using the seaborn and matplotlib libraries. The purpose of adding text annotations is to label the last value of the line with the actual value and to include the text "@tahvilci" in the graph. The "@tahvilci" text can be used to credit or mention the source of the data or the creator of the graph. You can also easily change the parameters and calculate whatever ratio you want.
+
+
+
+
+
+
 
